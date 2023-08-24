@@ -1,0 +1,9 @@
+source env/bin/activate -> activar entorno
+
+export AIRFLOW_HOME=/Users/mauri/Desktop/repositorio/apache-airflow-tutorial/airflow -> ruta para todas las instalaciones
+
+airflow webserver -> comando para iniciar el servidor
+
+airflow scheduler -> ejecutaremos el scheduler, la herramienta que Airflow tiene para poder sincronizar la base de datos y lanzar los DAGs necesarios.
+
+airflow dags list-runs -d hello_world -> comando para ver el esquema
